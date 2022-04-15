@@ -9,8 +9,7 @@
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "alarm.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +22,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
