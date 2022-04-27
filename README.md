@@ -49,7 +49,7 @@ function receiveBroadcast(message: string): boolean
 ### Alarm s výchozí zprávou
 
 #### Bloky
-![Alarm s výchozí zprávou](https://github.com/SmutnyJan/pxt-alarm/blob/master/images/easyexample.png)
+![Alarm s výchozí zprávou](https://github.com/microbit-cz/pxt-alarm-extension/blob/master/images/easyexample.png)
 #### Kód
 ```
 alarm.onAlarm(function () {
@@ -105,10 +105,11 @@ basic.showLeds(`
     `)
 radio.setGroup(1)
 ```
+Demo  [https://github.com/microbit-cz/pxt-alarm-demo-easy](https://github.com/microbit-cz/pxt-alarm-demo-easy)
 
 ### Alarm s vlastní zprávou
 #### Bloky
-![Alarm s vlastní zprávou](https://github.com/SmutnyJan/pxt-alarm/blob/master/images/hardexample.png)
+![Alarm s vlastní zprávou](https://github.com/microbit-cz/pxt-alarm-extension/blob/master/images/hardexample.png)
 
 #### Kód
 ```
@@ -169,3 +170,5 @@ basic.showLeds(`
     . . . . .
     `)
 ```
+
+Demo  [https://github.com/microbit-cz/pxt-alarm-demo-hard](https://github.com/microbit-cz/pxt-alarm-demo-hard)
